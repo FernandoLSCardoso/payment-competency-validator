@@ -198,7 +198,7 @@ export default function VigenciaPayments() {
                   placeholder="Ex: 03/2026"
                 />
                 {editingPagamento && editCompetencia !== extrairCompetencia(editingPagamento.data) && (
-                  <p className="mt-1.5 flex items-center gap-1 text-xs text-amber-600">
+                  <p className="mt-1.5 flex items-center gap-1 text-xs text-warning">
                     <AlertTriangle className="h-3 w-3" />
                     Competência diferente da data de pagamento ({extrairCompetencia(editingPagamento.data)})
                   </p>
