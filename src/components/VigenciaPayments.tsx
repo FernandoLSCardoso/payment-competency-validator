@@ -243,16 +243,10 @@ export default function VigenciaPayments() {
                               </div>
                             </TableCell>
                             <TableCell>
-                              {isValid ? (
-                                <div className="flex items-center gap-1.5 text-success">
-                                  <Check className="h-4 w-4" />
-                                  <span className="text-xs font-medium">Válida</span>
-                                </div>
+                              {p.observacao ? (
+                                <span className="text-xs text-muted-foreground line-clamp-2">{p.observacao}</span>
                               ) : (
-                                <div className="flex items-center gap-1.5 text-warning" title={p.observacao}>
-                                  <AlertTriangle className="h-4 w-4" />
-                                  <span className="text-xs font-medium">Divergente</span>
-                                </div>
+                                <span className="text-xs text-muted-foreground/50">—</span>
                               )}
                             </TableCell>
                             <TableCell>
