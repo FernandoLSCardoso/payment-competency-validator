@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { Pencil, Check, AlertTriangle, ChevronDown } from "lucide-react";
+import { Pencil, AlertTriangle, ChevronDown } from "lucide-react";
 import {
   Table, TableHeader, TableBody, TableHead, TableRow, TableCell,
 } from "@/components/ui/table";
