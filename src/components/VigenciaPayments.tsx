@@ -211,7 +211,7 @@ export default function VigenciaPayments() {
                       <TableHead className="text-xs font-semibold uppercase">Data</TableHead>
                       <TableHead className="text-xs font-semibold uppercase">Valor</TableHead>
                       <TableHead className="text-xs font-semibold uppercase">Competência</TableHead>
-                      <TableHead className="text-xs font-semibold uppercase">Validação</TableHead>
+                      <TableHead className="text-xs font-semibold uppercase">Observação</TableHead>
                       <TableHead className="w-12 text-xs font-semibold uppercase">Ação</TableHead>
                     </TableRow>
                   </TableHeader>
